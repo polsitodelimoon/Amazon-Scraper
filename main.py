@@ -43,7 +43,7 @@ for i in range(1, 5):
 df = pd.DataFrame(items, columns=['product', 'rating', 'rating count', 'price', 'product url'])
 df.to_csv('{0}.csv'.format(search_query), index=False, encoding='utf-8')
 
-if os.path.exists('search.csv2'):
+if os.path.exists('search2.csv'):
     pass
 
 else:
